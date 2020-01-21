@@ -1,11 +1,14 @@
-Backend Code for UEN Query application
+<b/>Backend Code for UEN Query application
 
 Works in Tandem with uen-query which contains the frontend code for the application
 
 
 Requires creation of MySQL database schema called 'validus' running on localhost port 3306
-with username : root
-password: 3aVetrkXRRmK8Cx
+with 
+<br/>
+<b/>username : root
+</br>
+<b/>password: 3aVetrkXRRmK8Cx
 
 Upon running the application, first run the import data from gov to local database
 This will instantiate the first 5000 records from the gov database to the local database
