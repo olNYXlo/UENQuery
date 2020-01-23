@@ -11,91 +11,91 @@ public class Company {
 	
 	@Id
 	@Column(name = "uen")
-	private String uen;
+	private String uenNumber;
 	
 	@Column(name = "issuance_agency_id")
-	private String issuance_agency_id;
+	private String issuanceAgency;
 	
 	@Column(name = "uen_status")
-	private String uen_status;
+	private String uenStatus;
 	
 	@Column(name = "entity_name")
-	private String entity_name;
+	private String entityName;
 	
 	@Column(name = "entity_type")
-	private String entity_type;
+	private String entityType;
 	
 	@Column(name = "uen_issue_date")
-	private String uen_issue_date;
+	private String uenIssueDate;
 	
 	@Column(name = "reg_street_name")
-	private String reg_street_name;
+	private String registeredStreetName;
 	
 	@Column(name = "reg_postal_code")
-	private String reg_postal_code;
+	private String registeredPostalCode;
 
 	public String getUenNumber() {
-		return uen;
+		return uenNumber;
 	}
 
 	public void setUenNumber(String uenNumber) {
-		this.uen = uenNumber;
+		this.uenNumber = uenNumber;
 	}
 
 	public String getIssuanceAgency() {
-		return issuance_agency_id;
+		return issuanceAgency;
 	}
 
 	public void setIssuanceAgency(String issuanceAgency) {
-		this.issuance_agency_id = issuanceAgency;
+		this.issuanceAgency = issuanceAgency;
 	}
 
 	public String getUenStatus() {
-		return uen_status;
+		return uenStatus;
 	}
 
 	public void setUenStatus(String uenStatus) {
-		this.uen_status = uenStatus;
+		this.uenStatus = uenStatus;
 	}
 
 	public String getEntityName() {
-		return entity_name;
+		return entityName;
 	}
 
 	public void setEntityName(String entityName) {
-		this.entity_name = entityName;
+		this.entityName = entityName;
 	}
 
 	public String getEntityType() {
-		return entity_type;
+		return entityType;
 	}
 
 	public void setEntityType(String entityType) {
-		this.entity_type = entityType;
+		this.entityType = entityType;
 	}
 
 	public String getUenIssueDate() {
-		return uen_issue_date;
+		return uenIssueDate;
 	}
 
 	public void setUenIssueDate(String uenIssueDate) {
-		this.uen_issue_date = uenIssueDate;
+		this.uenIssueDate = uenIssueDate;
 	}
 
 	public String getRegisteredStreetName() {
-		return reg_street_name;
+		return registeredStreetName;
 	}
 
 	public void setRegisteredStreetName(String registeredStreetName) {
-		this.reg_street_name = registeredStreetName;
+		this.registeredStreetName = registeredStreetName;
 	}
 
 	public String getRegisteredPostalCode() {
-		return reg_postal_code;
+		return registeredPostalCode;
 	}
 
 	public void setRegisteredPostalCode(String registeredPostalCode) {
-		this.reg_postal_code = registeredPostalCode;
+		this.registeredPostalCode = registeredPostalCode;
 	}
 	
 	

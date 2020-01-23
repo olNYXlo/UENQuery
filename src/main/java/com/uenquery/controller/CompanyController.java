@@ -33,5 +33,10 @@ public class CompanyController {
 	public boolean addCompany(@RequestBody ArrayList<Company> c) {
 		return companyServiceImpl.addCompany(c);
 	}
+	
+	@GetMapping(value = "/queryuen/{uen}")
+	public Company getCompany(@PathVariable String uen) {
+		return companyServiceImpl.searchUEN(uen);
+	}
 
 }

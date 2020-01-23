@@ -15,6 +15,18 @@ public class CompanyServiceImpl implements CompanyService {
 	CompanyDao companyDao;
 	
 
+	
+
+	@Override
+	public Company searchUEN(String uen) {
+		Company c = companyDao.findById(uen).orElse(null);
+		if (c == null) {
+			c = new Company();
+			c.setEntityName("Entered UEN Does Not Match Any Records");
+		}
+		return c;
+	}
+
 
 	@Override
 	public String searchUENNative(String uen) {

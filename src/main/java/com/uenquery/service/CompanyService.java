@@ -9,6 +9,7 @@ public interface CompanyService {
 	
 	String searchUENNative(String uen);
 	
+	Company searchUEN (String uen);
 	
 	boolean addCompany(ArrayList<Company> c);
 
